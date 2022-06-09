@@ -1,0 +1,22 @@
+{
+  "name": "capitulo-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "keywords": [],
+  "author": "vini",
+  "devdependencies": {},
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "0.4.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "web-pack": "^1.0.0"
+  }
+}
