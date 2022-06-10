@@ -1,7 +1,8 @@
+import { webpack } from "webpack"
 
 
-
-export const mode = "development"
+const webpack= require (webpack)
+export default "development"
 export const entry = "./src/principal.js"
 export const output = { filename: "principal.js", }
 
