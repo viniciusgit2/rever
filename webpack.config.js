@@ -1,9 +1,13 @@
-import { webpack } from "webpack"
-
-
 const webpack= require (webpack)
-export default "development"
-export const entry = "./src/principal.js"
-export const output = { filename: "principal.js", }
+   module. exports = {
+ mode: "development",
+entry: "./src/principal.js",
+
+output:{
+   filename:"./principal.js", 
+patch__dirname: "./public"
+}
+
+}
 
 

@@ -1,5 +1,5 @@
 
-require =class pessoa{
+module.exports=class pessoa{
 cumprimentar() {
 return(
     "bom dia")

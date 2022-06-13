@@ -1,3 +1,7 @@
 const pessoa= require ("./pessoa")
-const atedente= pessoa
-console.log(atedente.pessoa)
+const estilo= require("./assets/css/estilo.css")
+const atedente= new pessoa
+console.log(atedente.cumprimentar())
+
+
+
